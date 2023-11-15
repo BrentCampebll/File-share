@@ -32,7 +32,7 @@ This tutorial outlines the implementation of File sharing in Active Directory an
 
 </p>
 <p>
-Continuing from the previous set up we will login to DC-1 as an jane, and the VM as one of the created users (late.qusow) on our domain which was created before(daintanets.com).  On the C drive of DC-1, we create 4 folders wth varying access.  Then set permissions for each folder, Read access will be read access for domain users., no access will be read/write access for admins only, write access for read/write access for domain users, and accounting will only be accessible to a security group we will create called accountants.  Last we will test the various access levels of said folders oon the VM with the users we created granted different permissions and across several accounts.  Giving late.qusow access to the acoounting folder.
+Continuing from the previous set up we will login to DC-1 as an jane, and the VM as one of the created users (late.qusow) on our domain which was created before(daintanets.com).  On the C drive of DC-1, we create 4 folders with varying access.  Then set permissions for each folder, Read access will be read access for domain users., no access will be read/write access for admins only, write access for read/write access for domain users, and accounting will only be accessible to a security group we will create called accountants.  Last we will test the various access levels of said folders oon the VM with the users we created granted different permissions and across several accounts.  Giving late.qusow access to the accounting folder.
 </p>
 
 <img <a href="https://imgur.com/NyUxWQQ"><img src="https://i.imgur.com/NyUxWQQ.png" title="source: imgur.com" /></a>
